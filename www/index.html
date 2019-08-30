@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="manifest" href="/manifest.json">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Google News PWA">
+  <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.7/pwacompat.min.js"></script>
+  <title>Google News PWA Demo</title>
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-640x1136.png" 
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+  >
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-750x1294.png" 
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+  >
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-1242x2148.png" 
+    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+  >
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-1125x2436.png" 
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+  >
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-1536x2048.png" 
+    media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"
+  >
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-1668x2224.png" 
+    media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"
+  >
+  <link 
+    rel="apple-touch-startup-image" 
+    href="images/screen/ios/launch-2048x2732.png" 
+    media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"
+  >
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }).catch(function (err) {
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <noscript>
+      You need to enable JavaScript to run this app.
+  </noscript>
+<div > 
+   <section class="hero is-medium is-dark is-bold">
+     <div class="hero-body">
+       <div class="container">
+         <h1 class="title">
+           Top headlines
+         </h1>
+         <h2 class="subtitle">
+           Swipe to navigate
+         </h2>
+       </div>
+     </div>
+   </section>
+   <div class="box is-centered is-1by3 is-rounded has-text-centered" id="news"></div>
+   <script src="script/main.js"></script>
+</div> 
+</body>
+
+</html>
+

@@ -1,0 +1,27 @@
+{
+  "name": "top-headlines-monaca-pwa",
+  "author": "Johanness Nilsson <jnilsson@teknomadix.com>",
+  "version": "2.0.0",
+  "displayName": "Top Headlines PWA with Offline Cache",
+  "description": "A simple demonstration of a 'News Feed app' as a Progressive Web App (PWA). This uses service workers for caching / routing strategies, and offline support using Workbox(https://developers.google.com/web/tools/workbox). The app displays a list of top news headlines using the NewsAPI and will cache the content so that it can be used without the network. The app is styled with the Bulma.io stylesheet framework",
+  "keywords": [
+    "PWA",
+    "Workbox",
+    "Monaca",
+    "NewsAPI",
+    "Firebase",
+    "Bulma"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "dotenv": "^8.1.0",
+    "workbox-cli": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081",
+    "build": "workbox injectManifest workbox-config.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

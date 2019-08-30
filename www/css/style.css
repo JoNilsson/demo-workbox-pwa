@@ -1,0 +1,11 @@
+/*!#CSS*/
+article {
+    max-width: 100vw;
+    padding: 1em;
+    overflow: hidden;
+}
+
+
+article p, h1 {
+    margin-right: 15px;
+}
