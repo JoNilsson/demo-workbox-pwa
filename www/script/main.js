@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY
+const API_KEY = (your API key will go here, without parenthesis!)
 const source = 'google-news'
 const url = 'https://newsapi.org/v2/top-headlines?sources=' + source + '&apiKey=' + API_KEY
 

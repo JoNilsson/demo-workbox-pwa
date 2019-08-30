@@ -4,7 +4,7 @@ A no-frills PWA (Progressive Web Application) to demonstrate various caching and
 
 ### Setup
 
-This project bootstraps from the [Monaca](https://monaca.io/)'s PWA template.  While a Monaca account isn't needed to preview or build the app, a free account is needed to use some of the features of the monaca-cli tools, and to publish the app to their cloud hosting.  
+This project bootstraps from [Monaca](https://monaca.io/)'s PWA template.  While a Monaca account isn't needed to preview or build the app, a free account is needed to use some of the features of the monaca-cli tools, and to publish the app to their cloud hosting.  
 <sup>_the developer isn't affiliated or paid to endorse Monaca; "I just think that their tools are cool!"_</sup>
 
 The app is designed to use the [News API](https://newsapi.org/) to pull top news stories from the Google news feed agregator.  
