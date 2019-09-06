@@ -78,47 +78,59 @@ workbox.precaching.precacheAndRoute([
     "revision": "8e45f17820a540e2577d4178e1ea0eb3"
   },
   {
+    "url": "images/icons/apple-touch-icon.png",
+    "revision": "ddea8e8f08c72df957dd316cc0047e7a"
+  },
+  {
+    "url": "images/icons/favicon-16x16.png",
+    "revision": "6692393dee77f144d2f067b11e4b193b"
+  },
+  {
+    "url": "images/icons/favicon-32x32.png",
+    "revision": "158800fcdace48cb7eae1e30647bdd59"
+  },
+  {
+    "url": "images/icons/favicon-96x96.png",
+    "revision": "50a856f78fda258c16fe542d64ee31bd"
+  },
+  {
     "url": "images/icons/icon-128x128.png",
-    "revision": "32418e55eeab53d89f451189032196e5"
+    "revision": "e509bc6b48254db144d89cc7c416c2b7"
   },
   {
     "url": "images/icons/icon-144x144.png",
-    "revision": "0a74124a45f0419e4bfcf4b1e409132f"
+    "revision": "0d3abb5d4af1e2a971174512d875e1c9"
   },
   {
     "url": "images/icons/icon-152x152.png",
-    "revision": "bcaf41e37ba54a3f6f887da33e29c425"
-  },
-  {
-    "url": "images/icons/icon-168x168.png",
-    "revision": "604edc7754c3db4d2e20ce7fe517ae0e"
+    "revision": "6e699bf136d07d035bfc9f955cec8867"
   },
   {
     "url": "images/icons/icon-192x192.png",
-    "revision": "d3ed840ac444493f7978bcdceb2f87bf"
+    "revision": "dd774fbe8bfc87d1c863354d038cc3cc"
   },
   {
-    "url": "images/icons/icon-256x256.png",
-    "revision": "93012638cf3a7f142d6ac32046b9026e"
+    "url": "images/icons/icon-384x384.png",
+    "revision": "5db422a0bcdb66053f26f76f78ab430e"
   },
   {
-    "url": "images/icons/icon-48x48.png",
-    "revision": "df7323759ba57b1cd54245e7956a2fc6"
+    "url": "images/icons/icon-512x512.png",
+    "revision": "a437d699aa3c6fb6ffcf5f22c7b99272"
   },
   {
     "url": "images/icons/icon-72x72.png",
-    "revision": "17ce26f01364a397e7f935733eb8275c"
+    "revision": "c105d7ff72c50db2a7316aca6a6e6564"
   },
   {
     "url": "images/icons/icon-96x96.png",
-    "revision": "0db7a34fb4e410a34d29d85a06478f7e"
+    "revision": "b50a5ec5a4bbecf6b646556fedd8eba1"
   },
   {
     "url": "index.html",
-    "revision": "d39141a54206244485060b27de669bf9"
+    "revision": "693f6b69bc295f25282549c2596775a9"
   },
   {
     "url": "script/main.js",
-    "revision": "338b889e0b94773541a94574ed2bb5f8"
+    "revision": "29ebec35e3c6d572a2beb453a7bed775"
   }
 ])

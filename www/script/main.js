@@ -1,4 +1,4 @@
-const API_KEY = (your API key will go here, without parenthesis!)
+const API_KEY = '3e2ba7534db74e91ba49f88e4a234a03'
 const source = 'google-news'
 const url = 'https://newsapi.org/v2/top-headlines?sources=' + source + '&apiKey=' + API_KEY
 

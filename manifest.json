@@ -1,15 +1,12 @@
 {
   "name": "Google News PWA",
-  "short_name": "Top News",
+  "short_name": "News PWA",
   "theme_color": "rgba(33,150,243,0.86)",
   "background_color": "rgba(33,150,243,0)",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "./",
   "start_url": "index.html",
-  "lang": "en",
-  "dir": "ltr",
-  "prefer_related_applications": false,
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

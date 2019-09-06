@@ -1,51 +1,52 @@
 {
-  "name": "PWA App",
-  "short_name": "PWA App",
-  "description": "This is a PWA Minimum Template",
+  "name": "Google News PWA",
+  "short_name": "Google News",
+  "description": "Google News PWA with Offline Mode",
+  "theme_color": "rgba(33,150,243,0.86)",
+  "background_color": "rgba(33,150,243,0)",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "./",
+  "start_url": "index.html",
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
   "icons": [{
-    "src": "images/icons/icon-48x48.png",
-    "sizes": "48x48",
+    "src": "images/icons/ios/apple-icon-57x57.png",
+    "sizes": "57x57",
     "type": "image/png"
   }, {
-    "src": "images/icons/icon-72x72.png",
+    "src": "images/icons/ios/apple-icon-60x60.png",
+    "sizes": "60x60",
+    "type": "image/png"
+  }, {
+  }, {
+    "src": "images/icons/ios/apple-icon-72x72.png",
     "sizes": "72x72",
     "type": "image/png"
   }, {
-    "src": "images/icons/icon-96x96.png",
-    "sizes": "96x96",
+    "src": "images/icons/ios/apple-icon-76x76.png",
+    "sizes": "76x76",
     "type": "image/png"
   }, {
-    "src": "images/icons/icon-128x128.png",
-    "sizes": "128x128",
+    "src": "images/icons/ios/apple-icon-114x114.png",
+    "sizes": "114x114",
     "type": "image/png"
   }, {
-    "src": "images/icons/icon-144x144.png",
+    "src": "images/icons/ios/apple-icon-120x120.png",
+    "sizes": "120x120",
+    "type": "image/png"
+  }, {
+    "src": "images/icons/ios/apple-icon-144x144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "images/icons/icon-152x152.png",
+    "src": "images/icons/ios/apple-icon-152x152.png",
     "sizes": "152x152",
     "type": "image/png"
   }, {
-    "src": "images/icons/icon-168x168.png",
-    "sizes": "168x168",
-    "type": "image/png"
-  }, {
-    "src": "images/icons/icon-192x192.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  }, {
-    "src": "images/icons/icon-256x256.png",
-    "sizes": "256x256",
+    "src": "images/icons/ios/apple-icon-180x180.png",
+    "sizes": "180x180",
     "type": "image/png"
   }],
-  "lang": "en",
-  "dir": "ltr",
-  "scope": "./",
-  "start_url": "index.html",
-  "display": "standalone",
-  "orientation": "any",
-  "background_color": "#00629d",
-  "theme_color": "#00629d",
-  "prefer_related_applications": false
 }
