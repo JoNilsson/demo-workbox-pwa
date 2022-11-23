@@ -22,6 +22,6 @@
     "build": "workbox injectManifest workbox-config.js"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   }
 }
